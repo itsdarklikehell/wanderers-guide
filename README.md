@@ -20,3 +20,11 @@
 - [Local development](https://docs.wanderersguide.app/development) — run the app locally.
 - [Self-hosting with Docker](https://docs.wanderersguide.app/docker) — host your own instance.
 - [API reference](https://docs.wanderersguide.app/api-reference/introduction) — build your own client or integration.
+
+## Development timeline
+
+Visualize repository activity with Gource:
+
+![Wanderer's Guide — development timeline](gource.mp4)
+
+Rendering: `gource -1280x720 -f -i 0.5 -t 60 -o gource.ppm && ffmpeg -y -f image2pipe -r 30 -vcodec ppm -i gource.ppm -c:v libx264 -preset fast -crf 23 -pix_fmt yuv420p -movflags +faststart gource.mp4`
