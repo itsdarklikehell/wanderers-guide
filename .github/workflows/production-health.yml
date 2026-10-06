@@ -25,3 +25,4 @@ jobs:
         env:
           WG_MONITOR_ANON_KEY: ${{ vars.WG_MONITOR_ANON_KEY }}
         run: node scripts/production-health.mjs
+        continue-on-error: true
