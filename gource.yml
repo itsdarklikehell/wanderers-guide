@@ -1,0 +1,16 @@
+# Gource configuration for Wanderer's Guide
+# Run: gource --config gource.yml
+
+[gource]
+title = "Wanderer's Guide"
+logo = "frontend/public/icon-192.png"
+auto-skip-seconds = 0.5
+file-idle-time = 0
+loop = false
+seconds-per-day = 0.2
+date-format = "%Y-%m-%d"
+default-user-image = ""
+highlight-users = true
+max-files = 0
+max-lag = 0.3
+dir-name-depth = 1

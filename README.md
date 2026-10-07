@@ -20,3 +20,26 @@
 - [Local development](https://docs.wanderersguide.app/development) — run the app locally.
 - [Self-hosting with Docker](https://docs.wanderersguide.app/docker) — host your own instance.
 - [API reference](https://docs.wanderersguide.app/api-reference/introduction) — build your own client or integration.
+
+## Features
+
+- **PWA Support**: Installable as a Progressive Web App with offline caching
+- **Dark Mode**: Automatic dark/light mode based on system preference
+- **Tests**: Basic test suite included
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Build for production
+npm run build
+```
+
+## License
+
+See [LICENSE](LICENSE) for details.
